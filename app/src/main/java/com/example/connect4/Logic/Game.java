@@ -69,8 +69,6 @@ public class Game implements Serializable {
 
     public Position drop(int col){
         int playableRow = this.board.firstEmptyRow(col);
-        System.out.println(playableRow);
-        System.out.println(col);
         if (playableRow != -1) {
             Position occupedPos = this.board.play(col, this.turn);
             if (this.board.maxConnected(occupedPos) >= this.connectToWin) {

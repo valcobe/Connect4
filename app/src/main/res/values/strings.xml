@@ -1,86 +1,82 @@
 <resources>
     <!-- Initial Activity -->
     <string name="app_name">Connect 4</string>
-    <string name="action_settings">Configuració</string>
-    <string name="btnHelp">Ajuda</string>
-    <string name="btnInit">Comença la Partida</string>
-    <string name="btnExit">Sortir</string>
-    <string name="btnConsult">Consultar Partides</string>
+    <string name="action_settings">Configuracion</string>
+    <string name="btnHelp">Ayuda</string>
+    <string name="btnInit">Empezar partida</string>
+    <string name="btnExit">Salir</string>
+    <string name="btnConsult">Consultar Partidas</string>
 
     <!--- Help Activity -->
-    <string name="HelpTitle">INSTRUCCIONS</string>
-    <string name="backBtn">Torna</string>
-    <string name="help">El joc consisteix en anar introduint fitxes en un tauler vertical amb l\'objectiu d\'alinear 4 consecutives del color assignat al jugador(roig) abans que el teu oponent.
-        \n \n A cada torn, el jugador introdueix una fitxa a la columna triada(sempre i quan no estigui completa), i aquesta cau a la posiciió més baixa possible.
-        \n \n Guanya la partida el jugador que primer aconsegueix alinaer 4 fitxes consecutives del seu color en horitzontal, vertical o diagonal.
-        \n \n Si totes les columnes estan plenes i ningu ha aconseguit alinear-ne 4 fitxes, hi ha empat.</string>
+    <string name="HelpTitle">INSTRUCCIONES</string>
+    <string name="backBtn">Volver</string>
+    <string name="help">El juego consiste en ir introduciendo fichas en un tablero vertical con el objetivo de alinear 4 consecutivas del color asignado al jugador (rojo) antes que tu oponente.
+        \n \n A cada turno, el jugador introduce una ficha en la columna elegida (siempre y cuando no esté completa), y esta cae a la posición más baja posible.
+        \n \n Gana la partida el jugador que primero consiga alinear 4 fichas consecutivas de su color en horizontal, vertical o diagonal.
+        \n \n Si todas las columnas están llenas y nadie ha conseguido alinear 4 fichas, hay empate.</string>
 
     <!--- Configuration Activity -->
-    <string name="ConfigurationTitle">Configuració</string>
-    <string name="startBtn">Comença</string>
+    <string name="ConfigurationTitle">Configuracion</string>
+    <string name="startBtn">Empezar</string>
     <string name="alias">Alias</string>
-    <string name="size">Mida de la Graella: </string>
+    <string name="size">Tamaño del tablero: </string>
     <string name="optionGrid1">5</string>
     <string name="optionGrid2">6</string>
     <string name="optionGrid3">7</string>
-    <string name="time">Control del temps: </string>
-    <string name="toastMSG">Si us plau, ompli tots els camps.</string>
+    <string name="time">Control del tiempo: </string>
+    <string name="toastMSG">Porfavor, rellene todos los campos.</string>
 
     <!--- Configuration Activity -->
-    <string name="GameTitle">Connect 4 Game</string>
-    <string name="turn">Turn: </string>
-    <string name="timeGame">Time: </string>
+    <string name="GameTitle">CONNECT 4</string>
+    <string name="turn">Turno: </string>
+    <string name="timeGame">Tiempo: </string>
     <!--- Results Activity -->
     <string name="ResultsTitle">RESULTATS</string>
-    <string name="ResultsTitle2">Resultats del joc</string>
-    <string name="date">Data i Hora</string>
-    <string name="diaHora">Data i Hora</string>
-    <string name="resume">Valors del Log</string>
-    <string name="valorLog">Valors del Log</string>
+    <string name="ResultsTitle2">Resultados del juego</string>
+    <string name="date">Fecha y Hora</string>
+    <string name="diaHora">Fecha y Hora</string>
+    <string name="resume">Valores del Log</string>
+    <string name="valorLog">Valores del Log</string>
     <string name="email">E-Mail to send the log</string>
-    <string name="emailDest">E-Mail del Destinatari</string>
+    <string name="emailDest">E-Mail del Destinatario</string>
     <string name="user">Tu: </string>
     <string name="ia">CPU: </string>
-    <string name="cellsToFinish">Caselles per acabar: </string>
+    <string name="cellsToFinish">Casillas por acabar: </string>
 
     <!--- Strings for the Log -->
     <string name="Alias">Alias:</string>
     <string name="SizeOfTheGrid">Size of the grid:</string>
-    <string name="Win">Has Guanyat!!</string>
-    <string name="Lose">Has Perdut!!</string>
-    <string name="Draw">Has Empatat!!</string>
-    <string name="Difference">Caselles de Diferencia</string>
-    <string name="Left">Caselles Restants.</string>
-    <string name="Time">No queda més temps! </string>
+    <string name="Win">HAS GANADO!!</string>
+    <string name="Lose">HAS PERDIDO!!</string>
+    <string name="Draw">HAS EMPATADO!!</string>
+    <string name="Difference">Casillas de Diferencia</string>
+    <string name="Left">Casillas Restantes</string>
+    <string name="Time">Tiempo agotado! </string>
     <string name="You">Tu: </string>
-    <string name="Player2">El teu Oponent: </string>
+    <string name="Player2">Tu Oponente: </string>
     <string name="sendResults">Enviar e-mail</string>
-    <string name="subject">Resultats de la partida - Connect 4 Game</string>
-    <string name="GameRun"> Partida en curs!</string>
+    <string name="subject">Resultados de la partida - Connect 4 Game</string>
+    <string name="GameRun"> Partida en curso!</string>
     <string name="DatabaseLog">Database of Games</string>
-    <string name="PLAYERS">Jugadors</string>
+    <string name="PLAYERS">Jugadores</string>
     <string name="save">Guardado</string>
 
     <!--- Consult Games Activity -->
-    <string name="ConsultTitle">Acces Partides</string>
+    <string name="ConsultTitle">Resultados</string>
 
     <!-- Strings for the preferences -->
-    <string name="userTitle">Nom d\'usuari</string>
-    <string name="userSummary">Nom de l\'usuari</string>
-    <string name="user_default">Usuari1</string>
-    <string name="boardTitle">Mida de la Graella</string>
-    <string name="boardSummary">Mida de la graella del joc</string>
-    <string name="timeTitle">Control de Temps</string>
-    <string name="timeSummary">Marcar per a limitar el temps de la partida</string>
-    <string name="selectTimeTitle">Temps de Joc</string>
-    <string name="selectTimeSummary">Marca el temps que vols com a limit</string>
-    <string name="multiplayerTitle">Multijugador</string>
-    <string name="multiplayerSummary">Marca si vols jugar en mode multijujador</string>
-    <string name="titleDialog">Introdueix valor</string>
+    <string name="userTitle">Nombre del usuario</string>
+    <string name="userSummary">Nombre del usuario</string>
+    <string name="user_default">Usuario1</string>
+    <string name="boardTitle">Tamaño del tablero</string>
+    <string name="boardSummary">Medida del tamaño del tablero</string>
+    <string name="timeTitle">Control del tiempo</string>
+    <string name="timeSummary">Marca para limitar el tiempo de la partida</string>
+    <string name="selectTimeTitle">Tiempo de juego</string>
+    <string name="titleDialog">Introduce el valor</string>
 
     <!--KEYS-->
     <string name="user_key">user</string>
-    <string name="multiplayer_key">multiplayer</string>
     <string name="board_key">board</string>
     <string name="board_Default_key">7</string>
     <string name="time_key">time</string>

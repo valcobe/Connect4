@@ -24,7 +24,6 @@ public class JuegoFragment extends Fragment {
     private boolean time;
     private String player1;
     private int countDown = 40;
-    private static boolean mulitplayer;
     private ImageView turn;
     private TextView timing;
     private Game game_instance;
@@ -56,7 +55,6 @@ public class JuegoFragment extends Fragment {
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(getActivity());
         player1 = prefs.getString(getResources().getString(R.string.user_key), getResources().getString(R.string.user_default));
         time = prefs.getBoolean(getResources().getString(R.string.time_key), true);
-        mulitplayer = prefs.getBoolean(getResources().getString(R.string.multiplayer_key), false);
         countDown = Integer.valueOf(prefs.getString(getResources().getString(R.string.selectTime_key), "60"));
         SIZE = Integer.valueOf(prefs.getString(getResources().getString(R.string.board_key), getResources().getString(R.string.board_Default_key)));
         timing = (TextView) getView().findViewById(R.id.timing);
