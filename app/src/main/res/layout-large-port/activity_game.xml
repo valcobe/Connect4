@@ -33,7 +33,7 @@
 
     <fragment
         android:id="@+id/logFragment"
-        class="com.example.connect4.Fragments.LogFragment"
+        class="com.example.connect4.Fragments.RegFragment"
         android:layout_width="match_parent"
         android:layout_height="0px"
         android:layout_weight="50" />

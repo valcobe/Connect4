@@ -10,7 +10,7 @@ import android.widget.TextView;
 import com.example.connect4.R;
 
 
-public class LogFragment extends Fragment {
+public class RegFragment extends Fragment {
 
     String text;
 
