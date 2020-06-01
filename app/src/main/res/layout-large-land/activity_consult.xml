@@ -34,14 +34,14 @@
 
         <fragment
             android:id="@+id/ListFrag"
-            class="com.example.connect4.Fragments.ListFragment"
+            class="com.example.connect4.Fragments.QueryFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="100" />
 
         <fragment
             android:id="@+id/FrgDetalle"
-            class="com.example.connect4.Fragments.DetailFragment"
+            class="com.example.connect4.Fragments.DetailRegFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="100" />

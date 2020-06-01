@@ -5,17 +5,17 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.view.View;
 
-import com.example.connect4.Fragments.DetailFragment;
-import com.example.connect4.Fragments.ListFragment;
+import com.example.connect4.Fragments.DetailRegFragment;
+import com.example.connect4.Fragments.QueryFragment;
 import com.example.connect4.R;
 
-public class ConsultaActivity extends FragmentActivity implements ListFragment.GameListener {
+public class AccessBDActivity extends FragmentActivity implements QueryFragment.GameListener {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_consult);
-        ListFragment fragmentList = (ListFragment) getSupportFragmentManager().
+        QueryFragment fragmentList = (QueryFragment) getSupportFragmentManager().
                 findFragmentById(R.id.ListFrag);
         fragmentList.setGameListener(this);
     }
@@ -26,13 +26,13 @@ public class ConsultaActivity extends FragmentActivity implements ListFragment.G
     }
     @Override
     public void onGameSelected(int position) {
-        DetailFragment fgdet = (DetailFragment) getSupportFragmentManager().findFragmentById(R.id.FrgDetalle);
+        DetailRegFragment fgdet = (DetailRegFragment) getSupportFragmentManager().findFragmentById(R.id.FrgDetalle);
         if (fgdet != null && fgdet.isInLayout()) {
             fgdet.viewDetails(position);
         }
         else {
-            Intent intent = new Intent(this, DetailActivity.class);
-            intent.putExtra(DetailActivity.CellSelected, position);
+            Intent intent = new Intent(this, DetailRegActivity.class);
+            intent.putExtra(DetailRegActivity.CellSelected, position);
             startActivity(intent);
         }
     }

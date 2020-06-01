@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 finish();
                 break;
             case R.id.btnConsult:
-                Intent intent2 = new Intent(this, ConsultaActivity.class);
+                Intent intent2 = new Intent(this, AccessBDActivity.class);
                 startActivity(intent2);
                 finish();
                 break;

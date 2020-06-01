@@ -15,7 +15,7 @@ import android.widget.TextView;
 import com.example.connect4.R;
 import com.example.connect4.Utils.SQLite;
 
-public class ListFragment extends Fragment {
+public class QueryFragment extends Fragment {
     private GameListener listener;
 
     @Override
@@ -62,7 +62,7 @@ public class ListFragment extends Fragment {
         Activity context;
         SQLite database;
 
-        GameAdapter(ListFragment fragmentList, SQLite database) {
+        GameAdapter(QueryFragment fragmentList, SQLite database) {
             this.context = fragmentList.getActivity();
             this.database = database;
         }

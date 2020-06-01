@@ -11,7 +11,7 @@ import android.widget.TextView;
 import com.example.connect4.R;
 import com.example.connect4.Utils.SQLite;
 
-public class DetailFragment extends Fragment {
+public class DetailRegFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

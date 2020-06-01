@@ -20,8 +20,8 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.connect4.Activities.PreferencesActivity"/>
-        <activity android:name="com.example.connect4.Activities.ConsultaActivity"/>
-        <activity android:name="com.example.connect4.Activities.DetailActivity"/>
+        <activity android:name="com.example.connect4.Activities.AccessBDActivity"/>
+        <activity android:name="com.example.connect4.Activities.DetailRegActivity"/>
     </application>
 
 </manifest>
