@@ -29,5 +29,11 @@
         android:id="@+id/FrgDetalle"
         class="com.example.connect4.Fragments.DetailRegFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="363dp" />
+
+    <fragment
+        android:id="@+id/FrgImage"
+        class="com.example.connect4.Fragments.ResulPFragment"
+        android:layout_width="match_parent"
+        android:layout_height="312dp" />
 </LinearLayout>
